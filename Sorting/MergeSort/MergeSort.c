@@ -33,8 +33,8 @@ void mergeSort(int arr[],int l,int r){
 
 int main() {
 	
-    int a[]={10,5,30,15,7,8,9,10,23,34,56,76,35,87,100,231,420};
-	int l=0,r=16;
+    int a[]={10,5,30,15,7,8,9};
+	int l=0,r=6;
 	
 	mergeSort(a,l,r);
 	for(int i=0;i<=r;i++)
